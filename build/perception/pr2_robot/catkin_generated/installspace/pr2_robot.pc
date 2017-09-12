@@ -1,0 +1,8 @@
+prefix=/home/cedricxie/Documents/Udacity/RoboND_Perception/install
+
+Name: pr2_robot
+Description: Description of pr2_robot
+Version: 0.0.0
+Cflags: -I/home/cedricxie/Documents/Udacity/RoboND_Perception/install/include
+Libs: -L/home/cedricxie/Documents/Udacity/RoboND_Perception/install/lib 
+Requires: 

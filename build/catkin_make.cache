@@ -1,0 +1,2 @@
+perception/gazebo_grasp_plugin:perception/pr2_moveit:perception/pr2_robot:sensor_stick
+-DCATKIN_DEVEL_PREFIX=/home/cedricxie/Documents/Udacity/RoboND_Perception/devel -DCMAKE_INSTALL_PREFIX=/home/cedricxie/Documents/Udacity/RoboND_Perception/install -G Unix Makefiles
