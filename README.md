@@ -53,7 +53,7 @@ Here's the output of the training. Notice that it looks like the SVM classifier 
 
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
--World 1
+- World 1
 
 All 3 objects are classified successfully.
 
@@ -67,7 +67,7 @@ All 3 objects are classified successfully.
 Output YAML file
 [Test Scene 1](https://github.com/cedricxie/RoboND-Perception-Project/blob/master/output_1.yaml)
 
--World 2
+- World 2
 
 All 5 objects are classified successfully.
 
@@ -81,7 +81,7 @@ All 5 objects are classified successfully.
 Output YAML file
 [Test Scene 2](https://github.com/cedricxie/RoboND-Perception-Project/blob/master/output_2.yaml)
 
--World 3
+- World 3
 
 5 out of 8 objects are classified successfully.
 
@@ -102,4 +102,5 @@ The challenge here is that the SVM classifier is not very successful in distingu
 In addition, my model would fail to work when
 - If the orientation of the camera changes
 - If more noise is introduced into the scene
+
 Lots of work to be done!
