@@ -22,15 +22,15 @@ The overall pipeline for perception in my model is as follows:
 * RANSAC Plane Segmentation
 * Extract inliers and outliers
 
-![figure_objects](/images/fig_objects.png)
-![figure_table](/images/fig_table.png)
+![figure_objects](images/fig_objects.png)
+![figure_table](images/fig_table.png)
 
 #### Step 2
 * Euclidean Clustering
 * Create a cluster extraction object
 * Create new cloud containing all clusters, each with unique color
 
-![figure_cluster](/images/fig_cluster.png)
+![figure_cluster](images/fig_cluster.png)
 
 #### Step 3
 * Extract histogram features
@@ -46,8 +46,8 @@ Here are the settings I used to create my SVM:
 
 Here's the output of the training. Notice that it looks like the SVM classifier is having a difficult time distinguishing between eraser and soap2.
 
-![fig_confusion_mat](/images/fig_confusion_mat.png)
-![fig_confusion_mat_normalized](/images/fig_confusion_mat_normalized.png)
+![fig_confusion_mat](images/fig_confusion_mat.png)
+![fig_confusion_mat_normalized](images/fig_confusion_mat_normalized.png)
 
 ### Pick and Place Setup
 
@@ -62,7 +62,7 @@ All 3 objects are classified successfully.
 [INFO] [1505260632.505661, 997.251000]: Starting pr2_mover with 3 objects
 [INFO] [1505260632.526745, 997.258000]: Successfully output 3 objects to yaml file
 ```
-![fig_world_1](/images/fig_world_1.png)
+![fig_world_1](images/fig_world_1.png)
 
 Output YAML file
 [Test Scene 1](https://github.com/cedricxie/RoboND-Perception-Project/blob/master/output_1.yaml)
@@ -76,7 +76,7 @@ All 5 objects are classified successfully.
 [INFO] [1505260286.964570, 1107.848000]: Starting pr2_mover with 5 objects
 [INFO] [1505260287.005873, 1107.859000]: Successfully output 5 objects to yaml file
 ```
-![fig_world_2](/images/fig_world_2.png)
+![fig_world_2](images/fig_world_2.png)
 
 Output YAML file
 [Test Scene 2](https://github.com/cedricxie/RoboND-Perception-Project/blob/master/output_2.yaml)
@@ -92,7 +92,7 @@ Output YAML file
 [INFO] [1505260464.276326, 1321.258000]: Can't Find Object: glue
 ```
 
-![fig_world_3](/images/fig_world_3.png)
+![fig_world_3](images/fig_world_3.png)
 
 Output YAML file
 [Test Scene 3](https://github.com/cedricxie/RoboND-Perception-Project/blob/master/output_3.yaml)
